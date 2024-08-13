@@ -2,6 +2,7 @@
 use strict;
 use warnings;
 
-print("Hello World in perl !\n");
-$datestring = localtime();
+print("Content-type: text/html; charset=UTF-8\r\n\r\n");
+print("Hello World in perl !\n<br>\n");
+my $datestring = localtime();
 print "Local date and time $datestring\n";
